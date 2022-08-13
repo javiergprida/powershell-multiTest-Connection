@@ -1,5 +1,5 @@
 ﻿Set-ExecutionPolicy unrestricted -force
-$test = @(Get-Content -Path c:\corona\script\servers.txt) 
+$test = @(Get-Content -Path c:\script\servers.txt) 
 
  Write-Host "Enter the port number to check"
 [int]$portno= Read-Host
